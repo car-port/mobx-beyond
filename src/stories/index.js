@@ -9,6 +9,10 @@ import { Button, Welcome } from '@storybook/react/demo';
 storiesOf('Mobx Beyond', module)
   .add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
+storiesOf('Decorator', module)
+  .add('1. 装饰者模式', () => '')
+  .add('2. 装饰者模式', () => '')
+
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
 storiesOf('Button', module)
