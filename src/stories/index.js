@@ -5,30 +5,31 @@ import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
+import App from '../App'
 
+storiesOf('Mobx Beyond', module)
+  .add('Mobx V3 回顾', () => <div />)
+  .add('Mobx V4 & V5', () => <App />)
+  .add('1. 装饰者模式', () =>  <div />)
+  .add('2. Decorators in ES7', () => <div />)
+  .add('3. Decorators使用场景和案例', () => <div />)
+  .add('4. Object.defineProperty', () => <div />)
 
 storiesOf('Button2', module)
   .add('Button Component',
-    () =>  <div />,
+    () =>  <div/>,
     {info: {
         text: `
               description or documentation about my component, supports markdown
-    
+  
               ~~~js
               <Button>Click Here</Button>
               ~~~
             `,
       },
     }
-  );
+  )
 
-storiesOf('Mobx Beyond', module)
-  .add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
-
-storiesOf('Decorator', module)
-  .add('1. 装饰者模式', () => 'fdf')
-  .add('2. Decorators in ES7', () => 'ffdf')
-  .add('3. Decorators使用场景和案例', () => 'ffdf')
 
 storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 
