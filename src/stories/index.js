@@ -6,8 +6,15 @@ import { linkTo } from '@storybook/addon-links';
 
 import { Button, Welcome } from '@storybook/react/demo';
 import App from '../App'
+import doc from '../markdown/1-doc.md'
 
 storiesOf('Mobx Beyond', module)
+  .add('资料汇总', () => '',
+    {
+      info: {
+        text: doc
+      }}
+    )
   .add('Mobx V3 回顾', () => <div />)
   .add('Mobx V4 & V5', () => <App />)
   .add('1. 装饰者模式', () =>  <div />)
