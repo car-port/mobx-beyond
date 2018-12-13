@@ -17,6 +17,8 @@ storiesOf('Mobx Beyond', module)
   .add('2. Decorators in ES7', () => <div />)
   .add('3. Decorators使用场景和案例', () => <div />)
   .add('4. Object.defineProperty', () => <div />)
+  .add('如何自己实现一个mobx', () => <div />)
+  .add('decorator库', () => <div />)
 
 storiesOf('Button2', module)
   .add('Button Component',
