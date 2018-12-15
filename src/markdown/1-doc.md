@@ -14,6 +14,7 @@
 - [mixin-decorator](https://github.com/crossman/mixin-decorator)
 - [基础decorator](https://github.com/akira-cn/core-wrappers)
 - [ES7 Decorator 应用小结](https://juejin.im/post/5b4720c56fb9a04fb016c307)
+- [core-wrappers](https://github.com/akira-cn/core-wrappers)
 
 ##  mobx相关
 - [MobX 绑定过程和其中的一些坑的总结](https://blog.souche.com/mobxbang-ding-guo-cheng/)
