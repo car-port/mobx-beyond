@@ -15,6 +15,7 @@
 - [基础decorator](https://github.com/akira-cn/core-wrappers)
 - [ES7 Decorator 应用小结](https://juejin.im/post/5b4720c56fb9a04fb016c307)
 - [core-wrappers](https://github.com/akira-cn/core-wrappers)
+- [ES Decorators简介](http://efe.baidu.com/blog/introduction-to-es-decorator/)
 
 ##  mobx相关
 - [MobX 绑定过程和其中的一些坑的总结](https://blog.souche.com/mobxbang-ding-guo-cheng/)
@@ -28,3 +29,11 @@
 ## 问题
 - 类装饰器和方法装饰器的执行顺序
 - decoreator可以和await结合吗
+
+## 分享的范围
+- 上一次mobx分享的简介
+- Decorator的原理（Object.defineProperty）
+- Decorator的几个例子
+- Decorator使用场景(图表库中怎么使用)
+- 实现一个简单的mobx
+

@@ -20,6 +20,9 @@ storiesOf('Mobx Beyond', module)
   .add('如何自己实现一个mobx', () => <div />)
   .add('decorator库', () => <div />)
 
+storiesOf('Decorator', module)
+  .add('资料汇总', () => '', {info: {text: doc}})
+
 storiesOf('Button2', module)
   .add('Button Component',
     () =>  <div/>,
