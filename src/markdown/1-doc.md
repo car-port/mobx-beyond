@@ -37,3 +37,11 @@
 - Decorator使用场景(图表库中怎么使用)
 - 实现一个简单的mobx
 
+## 其他参考文献
+- [MobX (with Decorators) in create-react-app](https://www.robinwieruch.de/create-react-app-mobx-decorators/)
+
+## 遇到的问题
+
+create-react-app不支持decorator
+- [MobX (with Decorators) in create-react-app](https://www.robinwieruch.de/create-react-app-mobx-decorators/)
+- [设置legacy: true](https://stackoverflow.com/questions/53230930/react-mobx-error-the-decorators-plugin-requires-a-decoratorsbeforeexport-op)

@@ -1,13 +1,16 @@
 import React from 'react';
 
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
+import { storiesOf } from '@storybook/react'
+import { action } from '@storybook/addon-actions'
+import { linkTo } from '@storybook/addon-links'
 
-import { Button, Welcome } from '@storybook/react/demo';
+import { Button, Welcome } from '@storybook/react/demo'
 import App from '../App'
 import doc from '../markdown/1-doc.md'
 import doc2 from '../markdown/2-mobx-share.md'
+
+// 加载decorator测试
+import Dr1 from '../decorator/test'
 
 storiesOf('Mobx Beyond', module)
   .add('资料汇总', () => '', {info: {text: doc}})
@@ -21,7 +24,7 @@ storiesOf('Mobx Beyond', module)
   .add('decorator库', () => <div />)
 
 storiesOf('Decorator', module)
-  .add('资料汇总', () => '', {info: {text: doc}})
+  .add('1. 类上的Decorator', () => <Dr1 />, {info: {text: doc}})
 
 storiesOf('Button2', module)
   .add('Button Component',
