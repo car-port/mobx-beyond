@@ -24,7 +24,7 @@ storiesOf('Mobx Beyond', module)
   .add('decorator库', () => <div />)
 
 storiesOf('Decorator', module)
-  .add('1. 类上的Decorator', () => <Dr1 />, {info: {text: doc}})
+  .add('1. 类上的Decorator', () => <Dr1 />, {info: {text: doc, inline: false}}) // 这里将文档放到切换里
 
 storiesOf('Button2', module)
   .add('Button Component',
