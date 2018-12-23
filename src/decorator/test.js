@@ -1,25 +1,33 @@
 import React, { Component } from 'react'
 
-function doge (target) {
-  target.isDoge = '222'
-  console.log('------ isDoge', target.isDoge)
+// function doge (target) {
+//   target.isDoge = '222'
+// }
+//
+// @doge
+// class Test {
+//
+// }
+
+function readonly(target, key, descriptor) {
+  descriptor.writable = false
+  console.log('--------- ')
+  return descriptor
 }
 
-@doge
+
 class App extends Component {
-  constructor() {
-    super()
-    console.log('---- constructor')
-  }
+
+  @readonly name = 'king'
 
   render() {
-    console.log('------- render', this.isDoge)
+    this.name = 'queen'
     return (
       <div>
-        测试123 {this.isDoge}
+        测试{this.name}
       </div>
     );
   }
 }
 
-export default App;
+export default App

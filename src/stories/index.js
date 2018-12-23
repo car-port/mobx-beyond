@@ -13,7 +13,7 @@ import doc2 from '../markdown/2-mobx-share.md'
 import Dr1 from '../decorator/test'
 
 storiesOf('Mobx Beyond', module)
-  .add('资料汇总', () => '', {info: {text: doc}})
+  .add('资料汇总', () => <div />, {info: {text: doc}})
   .add('Mobx V3 回顾', () => '', {info: {text: doc2}})
   .add('Mobx V4 & V5', () => <App />)
   .add('1. 装饰者模式', () =>  <div />)

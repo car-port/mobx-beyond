@@ -16,6 +16,7 @@
 - [ES7 Decorator 应用小结](https://juejin.im/post/5b4720c56fb9a04fb016c307)
 - [core-wrappers](https://github.com/akira-cn/core-wrappers)
 - [ES Decorators简介](http://efe.baidu.com/blog/introduction-to-es-decorator/)
+- [react-decoration](https://github.com/mbasso/react-decoration)
 
 ##  mobx相关
 - [MobX 绑定过程和其中的一些坑的总结](https://blog.souche.com/mobxbang-ding-guo-cheng/)
