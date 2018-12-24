@@ -10,7 +10,7 @@ import React, { Component } from 'react'
 // }
 
 function readonly(target, key, descriptor) {
-  descriptor.writable = false
+  // descriptor.writable = false
   console.log('--------- ')
   return descriptor
 }
