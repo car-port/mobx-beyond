@@ -1,30 +1,22 @@
 import React, { Component } from 'react'
 
-// function doge (target) {
-//   target.isDoge = '222'
-// }
-//
-// @doge
-// class Test {
-//
-// }
+function testable(target) {
+  target.isTestable = 123
+}
 
-function readonly(target, key, descriptor) {
-  // descriptor.writable = false
-  console.log('--------- ')
-  return descriptor
+@testable
+class MyTestableClass {
+  // ...
 }
 
 
 class App extends Component {
 
-  @readonly name = 'king'
-
   render() {
-    this.name = 'queen'
+    console.log('-------', MyTestableClass.isTestable)
     return (
       <div>
-        测试{this.name}
+        测试 {MyTestableClass.isTestable}
       </div>
     );
   }
