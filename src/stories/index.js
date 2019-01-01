@@ -6,11 +6,19 @@ import { linkTo } from '@storybook/addon-links'
 
 import { Button, Welcome } from '@storybook/react/demo'
 import App from '../App'
+
+// markdown文档
 import doc from '../markdown/1-doc.md'
 import doc2 from '../markdown/2-mobx-share.md'
+import md_freeze from '../markdown/freeze.md'
 
 // 加载decorator测试
 import Dr1 from '../decorator/test'
+
+// Object.defineProperty
+import TestFreeze from '../defineProperty/freeze'
+
+import '../prism.css'
 
 storiesOf('Mobx Beyond', module)
   .add('资料汇总', () => <div />, {info: {text: doc}})
@@ -22,6 +30,9 @@ storiesOf('Mobx Beyond', module)
   .add('4. Object.defineProperty', () => <div />)
   .add('如何自己实现一个mobx', () => <div />)
   .add('decorator库', () => <div />)
+
+storiesOf('Object.defineProperty', module)
+  .add('Freeze', () => <TestFreeze />, {info: {text: md_freeze, inline: true, source: true}}) // 这里将文档放到切换里
 
 storiesOf('Decorator', module)
   .add('1. 类上的Decorator', () => <Dr1 />, {info: {text: doc, inline: false}}) // 这里将文档放到切换里
