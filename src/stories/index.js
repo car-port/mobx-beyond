@@ -32,7 +32,7 @@ storiesOf('Mobx Beyond', module)
   .add('decorator库', () => <div />)
 
 storiesOf('Object.defineProperty', module)
-  .add('Freeze', () => <TestFreeze />, {info: {text: md_freeze, inline: true, source: true}}) // 这里将文档放到切换里
+  .add('Freeze', () => <TestFreeze />, {info: {text: md_freeze, inline: false, source: true}}) // 这里将文档放到切换里
 
 storiesOf('Decorator', module)
   .add('1. 类上的Decorator', () => <Dr1 />, {info: {text: doc, inline: false}}) // 这里将文档放到切换里

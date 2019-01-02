@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import Prism from 'prismjs'
+Prism.highlightAll()
+
 
 
 class TestFreeze extends Component {
@@ -18,6 +21,20 @@ class TestFreeze extends Component {
     return (
       <div>
         <h1>测试Object.Freeze()</h1>
+
+        <pre>
+          <code className="language-js">
+          {`
+            onSubmit(e) {
+              e.preventDefault();
+              const job = {
+                title: 'Developer',
+                company: 'Facebook'
+                };
+              }
+          `}
+          </code>
+        </pre>
       </div>
     );
   }
