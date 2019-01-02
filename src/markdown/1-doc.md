@@ -5,8 +5,9 @@
 - [理解Object.defineProperty的作用](https://segmentfault.com/a/1190000007434923)
 - [不会Object.defineProperty你就out了](http://imweb.io/topic/56d40adc0848801a4ba198ce)
 - [Javascript中对象的Obeject.defineProperty()方法-](https://www.cnblogs.com/faith3/p/6139301.html)
+- [JavaScript 数据属性和访问器属性](https://segmentfault.com/a/1190000006800082)
 
-##  Decorator装饰器先关
+##  Decorator装饰器相关
 - [ES7 Decorator 装饰者模式](http://web.jobbole.com/84247/)
 - [Decorators in ES7](http://www.liuhaihua.cn/archives/115548.html)
 - [ES7 Decorator 与函数变换](https://www.h5jun.com/post/decorator-functional.html)
